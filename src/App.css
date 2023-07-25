@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+.landing::before{
+  content: " ";
+  background-image: url(./images/weather.jpg);
+  width: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  z-index: -1;
+  display: block;
+  position: absolute;
+}
+.landing{
+  /* background-color: rgba(41, 26, 22, 0.542);
+  height: 100vh; */
+  color: white;
+}
